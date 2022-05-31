@@ -26,7 +26,7 @@ class _DetailScreenWidgetState extends State<DetailScreenWidget> {
       appBar: AppBar(
         actions: [
           IconButton(
-              icon: const Icon(Icons.remove),
+              icon: const Icon(Icons.delete),
               onPressed: () {
                 removeItem(a);
                 _sendDataBack(context);
